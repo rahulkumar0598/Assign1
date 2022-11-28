@@ -4,7 +4,7 @@ const dotenv=require("dotenv");
 const morgan=require("morgan");
 const app=express();
 const path=require("path");
-const PORT=process.env.PORT||80
+const PORT=process.env.PORT||1337
 dotenv.config({path:'config.env'})
 const connectDB=require("./server/database/connection");
 var cookieParser = require('cookie-parser');
